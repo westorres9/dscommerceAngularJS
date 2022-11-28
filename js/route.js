@@ -30,4 +30,19 @@ DSCommerce.config(function($routeProvider) {
         controller:'adminController',
         controllerAs: 'vm'
     })
+    .when('/admin/listing', {
+        templateUrl: 'pages/listagem.html',
+        controller:'listingController',
+        controllerAs: 'vm'
+    })
+    .when('/admin/listing/form', {
+        templateUrl: 'pages/form.html',
+        controller:'formController',
+        controllerAs: 'vm'
+    })
+    .when('/confirm', {
+        templateUrl: 'pages/confirmacao.html',
+        controller:'confirmController',
+        controllerAs: 'vm'
+    })
 })

@@ -38,9 +38,6 @@ body {
   background-color: var(--dsc-color-bg-primary);
 }
 
-main {
-  padding: 0 20px;
-}
 
 /*-----------------------------------------------------------------*/
 /* generic styles */
